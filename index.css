@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.bodyy {
+    position: relative;
+    height: 1990px;
+    width: 100%;
+}
+
+.anh {
+    height: 890px;
+    width: 100%;
+    position: relative;
+}
+
+.anh img {
+    width: 100%;
+    height: 890px;
+    position: fixed;
+}
+
+.anh .hihi {
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    top: 400px;
+    background: red;
+    float: left;
+}
+
+.than {
+    float: left;
+    background: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 400px;
+}
+
+.than .tren {
+    height: 500px;
+    width: 100%;
+    background: white;
+}
+
+.tren .quanlytaikhoan {
+    height: 430px;
+    width: 65%;
+    background: white;
+    margin-left: 330px;
+    border-radius: 50px;
+    position: absolute;
+    top: 70px;
+    border: #21b9f4 solid 2px;
+}
+
+.infor {
+    position: absolute;
+    left: 200px;
+    background: white;
+    width: 300px;
+    height: 430px;
+    top: -150px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 5px 1px rgba(105, 100, 100, 0.664);
+    z-index: 1000;
+}
+
+.infor i {
+    font-size: 120px;
+    margin: 40px 20px 0px 90px;
+    color: rgb(43, 41, 41);
+}
+
+.infor a i:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.infor a p:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.quanlytaikhoan .a {
+    width: 100%;
+    margin-top: 70px;
+    height: 300px;
+    font-size: 35px;
+}
+
+.quanlytaikhoan .a i {
+    margin-left: 400px;
+    color: #21b9f4;
+}
+
+.quanlytaikhoan .a .b:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.than .duoi {
+    margin-top: 200px;
+    float: left;
+    width: 74%;
+    height: auto;
+    margin-right: 13%;
+    margin-left: 13%;
+}
+
+.duoi .left {
+    width: 28%;
+    height: 200px;
+    color: black;
+    float: left;
+    margin-right: 7%;
+    border: #21b9f4 solid 1px;
+    box-shadow: 3px 5px 5px 0px #9091929d;
+}
+
+.duoi .center {
+    width: 28%;
+    height: 200px;
+    border: #21b9f4 solid 1px;
+    float: left;
+    margin-right: 7%;
+    box-shadow: 3px 5px 5px 0px #9091929d;
+}
+
+.duoi .right {
+    width: 28%;
+    height: 200px;
+    color: black;
+    float: left;
+    border: #21b9f4 solid 1px;
+    box-shadow: 3px 5px 5px 0px #9091929d;
+}
+
+.duoi .right:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.duoi .left:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.duoi .center:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.under {
+    margin-top: 350px;
+}
+
+.foot {
+    margin-top: 200px;
+    height: 500px;
+    width: 100%;
+    float: left;
+    background: #f6f7f8;
+}
+
+.foot img {
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+
+.foot .clgt {
+    z-index: 10000;
+    width: 65%;
+    height: 400px;
+    background: white;
+    box-shadow: 5px 5px 5px 10px #92909057;
+    position: absolute;
+    right: 200px;
+    bottom: 40px;
+}
